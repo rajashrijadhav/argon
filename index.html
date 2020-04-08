@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Argon Dashboard</title>
+</head>
+<body class="expand-nav">
+    <div class="main-wrapper">
+    <div id="sidebar">
+        <div class="sidebar-inner sidenav mCustomScrollbar" data-mcs-theme="minimal-dark" >
+        <div class="container-fluid">
+        <div class="content ">
+            <div class="sidenav-header">
+                <div class="logo">
+                        
+                    <h1> <span><i class="fas fa-cubes"></i></span>argon</h1>
+                </div>
+                <div class="menu-btn">
+                    <a href="#">
+                        <span><i class="fas fa-bars"></i></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="sidenav-navigation">
+                <ul class="navigation">
+                    <li class="drop  ">
+                        <a href="#" class="active">
+                            <i class="fas fa-store icon-left text-primary"></i>
+                            dashboard
+                            <i class="fas fa-chevron-right push-right "></i>
+                        </a>
+                        <ul class="drop-content">
+                            <li><a href="dashbord.html">dashboard</a></li>
+                            <li><a href="alternative.html">alternative</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="drop">
+                        <a href="#">
+                            <i class="far fa-square icon-left text-orange"></i>
+                            example
+                            <i class="fas fa-chevron-right push-right "></i>
+                        </a>
+                        <ul class="drop-content">
+                                <li><a href="pricing.html">pricing</a></li>
+                                <li><a href="login.html">login</a></li>
+                                <li><a href="register.html">register</a></li>
+                                <li><a href="lock.html">lock</a></li>
+                                <li><a href="timeline.html">timeline</a></li>
+                                <li><a href="profile.html">profile</a></li>
+
+                            </ul>
+
+                    </li>
+
+                    <li class="drop">
+                        <a href="#">
+                            <i class="fas fa-ring icon-left text-info"></i>
+                            components
+                            <i class="fas fa-chevron-right push-right "></i>
+                        </a>
+                            <ul class="drop-content">
+                                <li><a href="button.html">button</a></li>
+                                <li><a href="card.html">card</a></li>
+                                <li><a href="grid.html">grid</a></li>
+                            </ul>
+                        
+                    </li>
+
+                    <li class="drop">
+                        <a href="#">
+                            <i class="fab fa-wpforms icon-left text-pink"></i>
+                            forms
+                            <i class="fas fa-chevron-right push-right "></i>
+                        </a>
+                        <ul class="drop-content">
+                            <li><a href="elements.html">elements</a></li>
+                            <li><a href="components.html">components</a></li>
+                            <li><a href="validation.html">validation</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="drop">
+                        <a href="#">
+                            <i class="far fa-chart-bar icon-left text-default"></i>
+                            tables
+                            <i class="fas fa-chevron-right push-right "></i>
+                        </a>
+                        <ul class="drop-content">
+                            <li><a href="tables.html">tables</a></li>
+                            <li><a href="sortables.html">sortables</a></li>
+                            <li><a href="datatables.html">datatables</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="drop ">
+                        <a href="#">
+                            <i class="far fa-map icon-left text-primary"></i>
+                            maps
+                            <i class="fas fa-chevron-right push-right "></i>
+                        </a>
+                        <ul class="drop-content">
+                            <li><a href="google.html">google</a></li>
+                            <li><a href="vector.html">vector</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="widgets.html">
+                            <i class="fas fa-archive icon-left text-green"></i>
+                            widgets
+                            
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="charts.html">
+                            <i class="fas fa-chart-pie icon-left text-info"></i>
+                            charts
+                            
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="calendar.html">
+                            <i class="far fa-calendar-alt icon-left text-red"></i>
+                            calendar
+                            
+                            </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+    <div class="main-content">
+        <div class="header-navbar">
+            <div class="container-fluid">
+            <div class="main-navbar">
+                <div class="nav-left">
+                <div class="search-form">
+                    <form action="post" class="form-control">
+                        <span><i class="fas fa-search"></i></span>
+                        <input  type="text" placeholder="search">
+                    </form>
+                </div>
+                </div>
+                <div class="nav-right">
+                <div class="navbar-link">
+                    <a href="#"><i class="fas fa-bell"></i></a>
+                    <a href="#"><i class="far fa-comments"></i></a>
+                </div>
+                <div class="navbar-avtar">
+                    <img src="images/te1.jpg" alt="image placeholder">
+                    <span class="avtar-text">jone snow</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="container-fluid">
+            <div class="header-link">
+                <div class="left-link">
+                    <h6>Alternative</h6>
+                    <nav class="header-left-link">
+                        <ul class="links">
+                            <li><a href="#"><i class="fas fa-home"></i></a></li>
+                            <li class="dash"><a href="#">dashboard</a></li>
+                            <li class="dash "><a href="#" class="active">alternative</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="right-link ">
+                    <a href="#" class="button button-small outline-secondary">New</a>
+                    <a href="#" class="button button-small outline-secondary">filters</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--header close hear-->
+
+<!--page content-->
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="content-info-block">
+                <div class="content-col">
+                <div class="info-block primary">
+                    
+                    <div class="card">
+                        <div class="card-info">
+                            <h5>TASKS COMPLETED</h5>
+                            <span>8/24</span>
+                            <div class="progress">
+                                    <progress class="progress-bar" value="30" max="100"></progress>
+                            </div>
+                            
+                        </div>
+                        <div class="card-btn card-nav">
+                            <a href="#"class="button button-small outline-secondary" ><i class="fas fa-ellipsis-h"></i></a>
+                            <ul class="card-navigation">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#"> Anther action</a></li>
+                                <li><a href="#">Something else hear</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <p class="card-text">
+                            <a href="#">see details</a>
+                    </p>
+                
+                    
+                </div>
+            </div>
+            <div class="content-col">
+                <div class="info-block info">
+                        <div class="card">
+                            <div class="card-info">
+                                <h5>contact</h5>
+                                <span>123/267</span>
+                                <div class="progress">
+                                        <progress class="progress-bar" value="50" max="100"></progress>
+                                </div>
+                            </div>
+                            <div class="card-btn card-nav">
+                                <a href="#"class="button button-small outline-secondary" ><i class="fas fa-ellipsis-h"></i></a>
+                                <ul class="card-navigation">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#"> Anther action</a></li>
+                                        <li><a href="#">Something else hear</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <p class="card-text">
+                            <a href="#">see details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="content-col">
+                    <div class="info-block warning">
+                            <div class="card">
+                                <div class="card-info">
+                                    <h5>ITEMS SOLD</h5>
+                                    <span>200/300</span>
+                                    <div class="progress">
+                                            <progress class="progress-bar" value="70" max="100"></progress>
+                                    </div>
+                                </div>
+                                <div class="card-btn card-nav">
+                                    <a href="#"class="button button-small outline-secondary" ><i class="fas fa-ellipsis-h"></i></a>
+                                    <ul class="card-navigation">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#"> Anther action</a></li>
+                                            <li><a href="#">Something else hear</a></li>
+                                        </ul>
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                <a href="#">see details</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content-col">
+                        <div class="info-block default">
+                                <div class="card">
+                                    <div class="card-info">
+                                        <h5>NOTIFICATIONS</h5>
+                                        <span>50/60</span>
+                                        <div class="progress">
+                                                <progress class="progress-bar" value="90" max="100"></progress>
+                                        </div>
+                                    </div>
+                                    <div class="card-btn card-nav">
+                                        <a href="#"class="button button-small outline-secondary" ><i class="fas fa-ellipsis-h"></i></a>
+                                        <ul class="card-navigation">
+                                                <li><a href="#">Action</a></li>
+                                                <li><a href="#"> Anther action</a></li>
+                                                <li><a href="#">Something else hear</a></li>
+                                            </ul>
+                                    </div>
+                                </div>
+                                <p class="card-text">
+                                    <a href="#">see details</a>
+                                </p>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="page-visit">
+        <div class="container-fluid">
+            <div class="page-visits">
+                <div class="page-table">
+                    <div class="page-table-header">
+                        <h3>page visits</h3>
+                        <div class="table-btn">
+                            <a href="#" class="button button-small">see all</a>
+                        </div>
+                    </div>
+                    <div class=" page-table-content mCustomScrollbar" data-mcs-theme="3d-thicQAk">
+                        
+                        <table class="table">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col" class="sort" data-sort="name">
+                                        project
+                                        <i class="fas fa-caret-up"></i>
+                                    </th>
+                                    <th scope="col" class="sort" data-sort="budget">
+                                        budget
+                                        <i class="fas fa-caret-up"></i>
+                                    </th>
+                                    <th scope="col" class="sort" data-sort="states">
+                                        states
+                                        <i class="fas fa-caret-up"></i>
+                                    </th>
+                                    <th scope="col" class="sort" data-sort="user">
+                                        user
+                                        <i class="fas fa-caret-up"></i>
+                                    </th>
+                                    <th scope="col" class="sort" data-sort="complition">
+                                        complition
+                                        <i class="fas fa-caret-up"></i>
+                                    </th>
+                                    <th>&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th class="name">
+                                    <div class="table-head table-content">
+                                    <a href="#" class="table-img"><img src="images/tb.jpg" alt="table image"></a>
+                                    <span>Argon Design System</span>
+                                    </div>
+                                </th>
+                                <td class="budget ">$2500 USD</td>
+                                <td class="states">
+                                    <div class="table-states table-content">
+                                    <span class="dot  ">
+                                            <i class="fas fa-circle bg-warning"></i>
+                                    </span>
+                                    <span class="states-text">pending</span>
+                                    </div>
+                                </td>
+                                <td class="avtar-img">
+                                    <div class="avtar-group table-content">
+                                        <a href="#" class="avtar-sm"><img src="images/te1.jpg" alt="avtar"></a>
+                                        <a href="#" class="avtar-sm"><img src="images/te2.jpg" alt="avtar"></a>
+                                        <a href="#" class="avtar-sm"><img src="images/te3.jpg" alt="avtar"></a>
+                                        <a href="#" class="avtar-sm"><img src="images/te1.jpg" alt="avtar"></a>
+                                    </div>
+                                </td>
+                                <td class="complition-pro">
+                                    <div class="table-progress table-content">
+                                    <span>60%</span>
+                                    <div class="progress">
+                                            <progress class="progress-bar bg-warning" value="60" max="100"></progress>
+                                    </div>
+                                    
+                                     </div>
+                                </td>
+                                <td class="complition-btn">
+                                        <div class="card-btn card-nav">
+                                                <a href="#"class="prog-btn button button-small outline-secondary " ><i class="fas fa-ellipsis-v"></i></a>
+                                                <ul class="card-navigation">
+                                                        <li><a href="#">Action</a></li>
+                                                        <li><a href="#"> Anther action</a></li>
+                                                        <li><a href="#">Something else hear</a></li>
+                                                    </ul>
+                                            </div>
+                                        </td>
+                            </tr>
+
+                            <tr>
+                                    <th class="name">
+                                        <div class="table-head table-content">
+                                        <a href="#" class="table-img"><img src="images/angular.jpg" alt="table image"></a>
+                                        <span>Angular Now UI Kit PRO</span>
+                                        </div>
+                                    </th>
+                                    <td class="budget ">$2500 USD</td>
+                                    <td class="states">
+                                        <div class="table-states table-content">
+                                        <span class="dot  ">
+                                                <i class="fas fa-circle bg-green"></i>
+                                        </span>
+                                        <span class="states-text">completed</span>
+                                        </div>
+                                    </td>
+                                    <td class="avtar-img">
+                                        <div class="avtar-group table-content">
+                                            <a href="#" class="avtar-sm"><img src="images/te1.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te2.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te3.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te1.jpg" alt="avtar"></a>
+                                        </div>
+                                    </td>
+                                    <td class="complition-pro">
+                                        <div class="table-progress table-content">
+                                        <span>72%</span>
+                                        <div class="progress">
+                                                <progress class="progress-bar bg-success" value="72" max="100"></progress>
+                                        </div>
+                                        
+                                         </div>
+                                    </td>
+                                    <td class="complition-btn">
+                                            <div class="card-btn card-nav">
+                                                    <a href="#"class="prog-btn button button-small outline-secondary " ><i class="fas fa-ellipsis-v"></i></a>
+                                                    <ul class="card-navigation">
+                                                            <li><a href="#">Action</a></li>
+                                                            <li><a href="#"> Anther action</a></li>
+                                                            <li><a href="#">Something else hear</a></li>
+                                                        </ul>
+                                                </div>
+                                            </td>
+                                </tr>
+
+                                <tr>
+                                    <th class="name">
+                                        <div class="table-head table-content">
+                                        <a href="#" class="table-img"><img src="images/sketch.jpg" alt="table image"></a>
+                                        <span>Black Dashboard</span>
+                                        </div>
+                                    </th>
+                                    <td class="budget ">$3150 USD</td>
+                                    <td class="states">
+                                        <div class="table-states table-content">
+                                        <span class="dot  ">
+                                                <i class="fas fa-circle bg-warning"></i>
+                                        </span>
+                                        <span class="states-text">delayed</span>
+                                        </div>
+                                    </td>
+                                    <td class="avtar-img">
+                                        <div class="avtar-group table-content">
+                                            <a href="#" class="avtar-sm"><img src="images/te1.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te2.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te3.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te1.jpg" alt="avtar"></a>
+                                        </div>
+                                    </td>
+                                    <td class="complition-pro">
+                                        <div class="table-progress table-content">
+                                        <span>100%</span>
+                                        <div class="progress">
+                                                <progress class="progress-bar bg-danger" value="100" max="100"></progress>
+                                        </div>
+                                        
+                                         </div>
+                                    </td>
+
+                                    <td class="complition-btn">
+                                            <div class="card-btn card-nav">
+                                                    <a href="#"class="prog-btn button button-small outline-secondary " ><i class="fas fa-ellipsis-v"></i></a>
+                                                    <ul class="card-navigation">
+                                                            <li><a href="#">Action</a></li>
+                                                            <li><a href="#"> Anther action</a></li>
+                                                            <li><a href="#">Something else hear</a></li>
+                                                        </ul>
+                                                </div>
+                                            </td>
+                                </tr>
+
+                                <tr>
+                                    <th class="name">
+                                        <div class="table-head table-content">
+                                        <a href="#" class="table-img"><img src="images/react.jpg" alt="table image"></a>
+                                        <span>React Material Dashboard</span>
+                                        </div>
+                                    </th>
+                                    <td class="budget ">$4400 USD</td>
+                                    <td class="states">
+                                        <div class="table-states table-content">
+                                        <span class="dot  ">
+                                                <i class="fas fa-circle bg-info"></i>
+                                        </span>
+                                        <span class="states-text">on schedule</span>
+                                        </div>
+                                    </td>
+                                    <td class="avtar-img">
+                                        <div class="avtar-group table-content">
+                                            <a href="#" class="avtar-sm"><img src="images/te1.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te2.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te3.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te1.jpg" alt="avtar"></a>
+                                        </div>
+                                    </td>
+                                    <td class="complition-pro">
+                                        <div class="table-progress table-content">
+                                        <span>90%</span>
+                                        <div class="progress">
+                                                <progress class="progress-bar bg-info" value="90" max="100"></progress>
+                                        </div>
+                                        
+                                         </div>
+                                    </td>
+                                    <td class="complition-btn">
+                                            <div class="card-btn card-nav">
+                                                    <a href="#"class="prog-btn button button-small outline-secondary " ><i class="fas fa-ellipsis-v"></i></a>
+                                                    <ul class="card-navigation">
+                                                            <li><a href="#">Action</a></li>
+                                                            <li><a href="#"> Anther action</a></li>
+                                                            <li><a href="#">Something else hear</a></li>
+                                                        </ul>
+                                                </div>
+                                            </td>
+                                </tr>
+
+                                <tr>
+                                    <th class="name">
+                                        <div class="table-head table-content">
+                                        <a href="#" class="table-img"><img src="images/vue.jpg" alt="table image"></a>
+                                        <span>Vue Paper UI Kit PRO</span>
+                                        </div>
+                                    </th>
+                                    <td class="budget ">$2200 USD</td>
+                                    <td class="states">
+                                        <div class="table-states table-content">
+                                        <span class="dot  ">
+                                                <i class="fas fa-circle bg-green"></i>
+                                        </span>
+                                        <span class="states-text">completed</span>
+                                        </div>
+                                    </td>
+                                    <td class="avtar-img">
+                                        <div class="avtar-group table-content">
+                                            <a href="#" class="avtar-sm"><img src="images/te1.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te2.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te3.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te1.jpg" alt="avtar"></a>
+                                        </div>
+                                    </td>
+                                    <td class="complition-pro">
+                                        <div class="table-progress table-content">
+                                        <span>100%</span>
+                                        <div class="progress">
+                                                <progress class="progress-bar bg-success" value="100" max="100"></progress>
+                                        </div>
+                                        
+                                         </div>
+                                    </td>
+
+                                    <td class="complition-btn">
+                                            <div class="card-btn card-nav">
+                                                    <a href="#"class="prog-btn button button-small outline-secondary " ><i class="fas fa-ellipsis-v"></i></a>
+                                                    <ul class="card-navigation">
+                                                            <li><a href="#">Action</a></li>
+                                                            <li><a href="#"> Anther action</a></li>
+                                                            <li><a href="#">Something else hear</a></li>
+                                                        </ul>
+                                                </div>
+                                            </td>
+                                </tr>
+
+                                <tr>
+                                    <th class="name">
+                                        <div class="table-head table-content">
+                                        <a href="#" class="table-img"><img src="images/tb.jpg" alt="table image"></a>
+                                        <span>Argon Design System</span>
+                                        </div>
+                                    </th>
+                                    <td class="budget ">$2500 USD</td>
+                                    <td class="states">
+                                        <div class="table-states table-content">
+                                        <span class="dot  ">
+                                                <i class="fas fa-circle bg-warning"></i>
+                                        </span>
+                                        <span class="states-text">pending</span>
+                                        </div>
+                                    </td>
+                                    <td class="avtar-img">
+                                        <div class="avtar-group table-content">
+                                            <a href="#" class="avtar-sm"><img src="images/te1.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te2.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te3.jpg" alt="avtar"></a>
+                                            <a href="#" class="avtar-sm"><img src="images/te1.jpg" alt="avtar"></a>
+                                        </div>
+                                    </td>
+                                    <td class="complition-pro">
+                                        <div class="table-progress table-content">
+                                        <span>60%</span>
+                                        <div class="progress">
+                                                <progress class="progress-bar bg-warning" value="60" max="100"></progress>
+                                        </div>
+                                        
+                                         </div>
+                                    </td>
+                                    <td class="complition-btn">
+                                            <div class="card-btn card-nav">
+                                                    <a href="#"class="prog-btn button button-small outline-secondary " ><i class="fas fa-ellipsis-v"></i></a>
+                                                    <ul class="card-navigation">
+                                                            <li><a href="#">Action</a></li>
+                                                            <li><a href="#"> Anther action</a></li>
+                                                            <li><a href="#">Something else hear</a></li>
+                                                        </ul>
+                                                </div>
+                                            </td>
+                                </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="page-visit-progress">
+                    <div class="progress-table">
+                            <div class="page-table-header progress-table-header">
+                                <div class="header-title">
+                                    <h6 class="sub-title">5/23 projects</h6>
+                                    <h3 class="title">Progress track</h3>
+                                </div>
+                                    <div class="table-btn">
+                                        <a href="#" class="button button-small outline-secondary">Action</a>
+                                    </div>
+                            </div>
+
+                            <div class="progress-table-body">
+                                <div class="table-body-content">
+                                        <div class="table-content progress-table-content ">
+                                            <a href="#" class="table-img"><img src="images/tb.jpg" alt="table image"></a>
+                                            <div class="progress-content">
+                                                    <h5>Argon Design System</h5>
+                                                    <progress class="progress-bar bg-warning" value="60" max="100"></progress>
+                                            </div>
+                                            
+                                        </div>
+
+                                        <div class="table-content progress-table-content ">
+                                                <a href="#" class="table-img"><img src="images/angular.jpg" alt="table image"></a>
+                                                <div class="progress-content">
+                                                        <h5>Angular Now UI Kit PRO</h5>
+                                                        <progress class="progress-bar bg-success" value="100" max="100"></progress>
+                                                </div>
+                                                
+                                        </div>
+
+                                        <div class="table-content progress-table-content ">
+                                                <a href="#" class="table-img"><img src="images/sketch.jpg" alt="table image"></a>
+                                                <div class="progress-content">
+                                                        <h5>Black Dashboard</h5>
+                                                        <progress class="progress-bar bg-danger" value="70" max="100"></progress>
+                                                </div>
+                                                
+                                        </div>
+
+                                        <div class="table-content progress-table-content ">
+                                                <a href="#" class="table-img"><img src="images/react.jpg" alt="table image"></a>
+                                                <div class="progress-content">
+                                                        <h5>React Material Dashboard</h5>
+                                                        <progress class="progress-bar bg-info" value="80" max="100"></progress>
+                                                </div>
+                                                
+                                        </div>
+
+                                        <div class="table-content progress-table-content ">
+                                                <a href="#" class="table-img"><img src="images/vue.jpg" alt="table image"></a>
+                                                <div class="progress-content">
+                                                        <h5>Vue Paper UI Kit PRO</h5>
+                                                        <progress class="progress-bar bg-success" value="70" max="100"></progress>
+                                                </div>
+                                                
+                                        </div>
+
+                                        <div class="table-content progress-table-content ">
+                                                <a href="#" class="table-img"><img src="images/react.jpg" alt="table image"></a>
+                                                <div class="progress-content">
+                                                        <h5>React Material Dashboard</h5>
+                                                        <progress class="progress-bar bg-info" value="100" max="100"></progress>
+                                                </div>
+                                                
+                                        </div>
+                                        
+                                                
+                                
+                                </div>
+                            </div>
+
+
+                                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="member-info-block">
+        <div class="container-fluid">
+            <div class="member-list-group">
+                <div class="member-list">
+                    <div class="page-visit-progress">
+                        <div class="progress-table">
+                                <div class="page-table-header progress-table-header">
+                                    <div class="header-title">
+                                        
+                                        <h3 class="title">member list</h3>
+                                    </div>
+                                        
+                                </div>
+    
+                                <div class="progress-table-body">
+                                    <div class="table-body-content">
+                                            <div class="table-content progress-table-content ">
+                                                <div class="member-img">
+                                                    <a href="#" class="table-img"><img src="images/te1.jpg" alt="table image"></a>
+                                                </div>
+
+                                                <div class="member-list">
+                                                        <h4>
+                                                            <a href="#" class="member-name">John Michael</a>
+                                                        </h4>
+                                                        <div class="dot">  
+                                                            <span class="text-success"></span>
+                                                            <small>online</small>
+                                                        </div>
+                                                        
+                                                </div>
+                                                    
+                                                
+                                                <div class="progress-content member-btn">
+                                                    <a href="#" class="button button-small">Add</a>
+                                                </div>
+                                                
+                                            </div>
+    
+                                            <div class="table-content progress-table-content ">
+                                                    <div class="member-img">
+                                                            <a href="#" class="table-img"><img src="images/te2.jpg" alt="table image"></a>
+                                                        </div>
+        
+                                                        <div class="member-list">
+                                                                <h4>
+                                                                    <a href="#" class="member-name">Alex Smith</a>
+                                                                </h4>
+                                                                <div class="dot">  
+                                                                    <span class="text-denger"></span>
+                                                                    <small>In a meeting</small>
+                                                                </div>
+                                                                
+                                                        </div>
+                                                            
+                                                        
+                                                        <div class="progress-content member-btn">
+                                                            <a href="#" class="button button-small">Add</a>
+                                                        </div>
+                                                    
+                                            </div>
+    
+                                            <div class="table-content progress-table-content ">
+                                                    <div class="member-img">
+                                                            <a href="#" class="table-img"><img src="images/te3.jpg" alt="table image"></a>
+                                                        </div>
+        
+                                                        <div class="member-list">
+                                                                <h4>
+                                                                    <a href="#" class="member-name">Samantha Ivy</a>
+                                                                </h4>
+                                                                <div class="dot">  
+                                                                    <span class="text-denger"></span>
+                                                                    <small>offline</small>
+                                                                </div>
+                                                                
+                                                        </div>
+                                                            
+                                                        
+                                                        <div class="progress-content member-btn">
+                                                            <a href="#" class="button button-small">Add</a>
+                                                        </div>
+                                                    
+                                            </div>
+    
+                                            <div class="table-content progress-table-content ">
+                                                    <div class="member-img">
+                                                            <a href="#" class="table-img"><img src="images/te2.jpg" alt="table image"></a>
+                                                        </div>
+        
+                                                        <div class="member-list">
+                                                                <h4>
+                                                                    <a href="#" class="member-name">John Michael</a>
+                                                                </h4>
+                                                                <div class="dot">  
+                                                                    <span class="text-success"></span>
+                                                                    <small>online</small>
+                                                                </div>
+                                                                
+                                                        </div>
+                                                            
+                                                        
+                                                        <div class="progress-content member-btn">
+                                                            <a href="#" class="button button-small">Add</a>
+                                                        </div>
+                                                    
+                                            </div>
+    
+                                            
+    
+                                            
+                                            
+                                                    
+                                    
+                                    </div>
+                                </div>
+    
+    
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list">
+                    <div class="page-visit-progress">
+                        <div class="progress-table">
+                                <div class="page-table-header progress-table-header">
+                                    <div class="header-title">
+                                        
+                                        <h3 class="title">to do list</h3>
+                                    </div>
+                                        
+                                </div>
+    
+                                <div class="list-table-body ">
+                                    <div class="table-body-content table-list">
+                                            <div class="table-content progress-table-content list-table-content">
+                                                    <div class="list-content border-success">
+                                                        <h6><del>Call with deav</del></h6>
+                                                        <small>10.30am</small>
+                                                    </div>
+
+                                                    <label class="container">
+                                                            <input type="checkbox" checked="checked">
+                                                            <span class="checkmark bg-success"></span>
+                                                    </label>
+                                                
+                                            </div>
+    
+                                            <div class="table-content progress-table-content list-table-content">
+                                                    <div class="list-content border-denger">
+                                                            <h6>Lunch meeting</h6>
+                                                            <small>10.30am</small>
+                                                        </div>
+    
+                                                        <label class="container">
+                                                                <input type="checkbox" >
+                                                                <span class="checkmark bg-danger"></span>
+                                                        </label>
+                                                    
+                                            </div>
+    
+                                            <div class="table-content progress-table-content list-table-content">
+                                                    <div class="list-content border-info">
+                                                            <h6>Argon Dashboard Launch</h6>
+                                                            <small>10.30am</small>
+                                                        </div>
+    
+                                                        <label class="container">
+                                                                <input type="checkbox" >
+                                                                <span class="checkmark bg-info"></span>
+                                                        </label>
+                                                    
+                                            </div>
+    
+                                            <div class="table-content progress-table-content list-table-content ">
+                                                    <div class="list-content border-denger">
+                                                            <h6>Lunch meeting</h6>
+                                                            <small>10.30am</small>
+                                                        </div>
+    
+                                                        <label class="container">
+                                                                <input type="checkbox"checked="checked" >
+                                                                <span class="checkmark bg-danger"></span>
+                                                        </label>
+                                                    
+                                            </div>
+    
+                                            
+                                            
+                                                    
+                                    
+                                    </div>
+                                </div>
+    
+    
+                                    
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-track">
+                    <div class="page-visit-progress">
+                        <div class="progress-table">
+                                <div class="page-table-header progress-table-header">
+                                    <div class="header-title">
+                                        
+                                        <h3 class="title">Progress track</h3>
+                                    </div>
+                                        
+                                </div>
+    
+                                <div class="progress-table-body">
+                                    <div class="table-body-content">
+                                            <div class="table-content progress-table-content ">
+                                                <a href="#" class="table-img"><img src="images/tb.jpg" alt="table image"></a>
+                                                <div class="progress-content">
+                                                        <h5>Argon Design System</h5>
+                                                        <progress class="progress-bar bg-warning" value="60" max="100"></progress>
+                                                </div>
+                                                
+                                            </div>
+    
+                                            <div class="table-content progress-table-content ">
+                                                    <a href="#" class="table-img"><img src="images/angular.jpg" alt="table image"></a>
+                                                    <div class="progress-content">
+                                                            <h5>Angular Now UI Kit PRO</h5>
+                                                            <progress class="progress-bar bg-success" value="100" max="100"></progress>
+                                                    </div>
+                                                    
+                                            </div>
+    
+                                            <div class="table-content progress-table-content ">
+                                                    <a href="#" class="table-img"><img src="images/sketch.jpg" alt="table image"></a>
+                                                    <div class="progress-content">
+                                                            <h5>Black Dashboard</h5>
+                                                            <progress class="progress-bar bg-danger" value="70" max="100"></progress>
+                                                    </div>
+                                                    
+                                            </div>
+    
+                                            <div class="table-content progress-table-content is-paddingless">
+                                                    <a href="#" class="table-img"><img src="images/react.jpg" alt="table image"></a>
+                                                    <div class="progress-content">
+                                                            <h5>React Material Dashboard</h5>
+                                                            <progress class="progress-bar bg-info" value="80" max="100"></progress>
+                                                    </div>
+                                                    
+                                            </div>
+    
+                                            
+                                            
+                                                    
+                                    
+                                    </div>
+                                </div>
+    
+    
+                                    
+                        </div>
+                    </div>
+                </div>
+            </div><!--member-list-group-->
+        </div> 
+    </div>
+
+    <div class="footer">
+        <div class="container-fluid">
+            jhvdbdjkvh
+        </div>
+    </div>
+</div><!--main-wrapper close hear-->
+
+    
+
+
+    
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
